@@ -14,6 +14,8 @@ pergunta2 = int(input("Escolha de 0 a 9 para exibir o produto: "))
 
 if pergunta2 < len(produtos):
     
-    print("Produto: {}".format(produtos[pergunta2]))       
+    print("Produto: {}".format(produtos[pergunta2]))    
+
+print("Ruan Augusto Alves")   
 
 

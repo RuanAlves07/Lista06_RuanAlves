@@ -2,18 +2,16 @@
 #Peça ao usuário para inserir um dos países que foram mostrados a ele e, em seguida, exibir o número de índice (ou seja, posição na lista) desse item na tupla.
 
 
-paises = ("Brasil, Peru, Chile, Colombia, Argentina".lower())
+paises = ('Brasil, Peru, Chile, Colombia, Argentina')
 print(paises)
 
 pergunta = input("Insira um dos paises da tupla: ")
 
 if pergunta in paises:
-
     country = paises.index(pergunta)
-    country =+ 1
-    print ("O país que você escolheu é o: {} e o índice do mesmo é o: {}".format(pergunta, country))
+    print("O país que você escolheu é o: {} e o índice do mesmo é o: {}".format(pergunta, country))
 else:
-
-    print ("O país selecionado não está na lista!")
+    print("O país selecionado não está na lista!")
 
 print ("Ruan Augusto Alves")
+
